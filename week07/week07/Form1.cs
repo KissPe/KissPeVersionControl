@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using week07.Entities;
 
 namespace week07
 {
@@ -15,6 +16,10 @@ namespace week07
         public Form1()
         {
             InitializeComponent();
+
+            List<Person> Population = new List<Person>();
+            List<Birth> BirthProbabilities = new List<Birth>();
+            List<Death> DeathProbabilities = new List<Death>();
         }
     }
 }

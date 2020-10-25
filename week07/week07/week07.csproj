@@ -46,6 +46,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\Birth.cs" />
+    <Compile Include="Entities\Death.cs" />
+    <Compile Include="Entities\Gender .cs" />
+    <Compile Include="Entities\Person.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

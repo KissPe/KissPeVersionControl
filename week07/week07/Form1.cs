@@ -67,6 +67,16 @@ namespace week07
         {
             throw new NotImplementedException();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
     public List<Person> GetPopulation(string csvpath)
     {
